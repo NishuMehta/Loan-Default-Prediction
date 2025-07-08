@@ -3,14 +3,14 @@
 This project predicts whether a loan applicant is likely to **default** using machine learning. It provides a user-friendly **Streamlit web app** where users can input applicant data and receive a risk prediction instantly.
 
 
-## 🚀 Live App
-[🔗 Click here to try the app](https://loan-default-prediction-nishu.streamlit.app/)  
+##  Live App
+[Click here to try the app](https://loan-default-prediction-nishu.streamlit.app/)  
 
 ![](/images/Demo_1.png)
 ![](/images/Demo_2.png)
 
 ---
-## 📊 Features
+## Features
 
 - **24 input fields** based on user profile and financial history
 - Clean interface with two-column input layout
@@ -19,7 +19,7 @@ This project predicts whether a loan applicant is likely to **default** using ma
 
 ---
 
-## 📚 Dataset Overview
+## Dataset Overview
 
 Each row in the dataset contains features like:
 
@@ -29,21 +29,21 @@ Each row in the dataset contains features like:
 
 ---
 
-## 🧠 Model Training
+## Model Training
 
 Three models were trained:
 
 | Model               | ROC-AUC Score |
 |--------------------|---------------|
-| Logistic Regression| **0.7531** ✅ (Best) |
-| Random Forest       | 0.7318        |
-| XGBoost             | 0.7425        |
+| Logistic Regression| **0.7531** (Best) |
+| Random Forest       | 0.7390        |
+| XGBoost             | 0.7409        |
 
 The final deployed model is **Logistic Regression** due to its balance of accuracy, interpretability, and low overfitting.
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ```bash
 git clone https://github.com/NishuMehta/Loan-Default-Prediction.git
@@ -52,10 +52,10 @@ pip install -r requirements.txt
 streamlit run app/main.py
 
 
-## 🙋‍♀️ Author
+## Author
 
 - [Nishu Mehta](https://github.com/NishuMehta)
 
-## 🔗 Project Link
+## Project Link
 
-👉 [GitHub Repository](https://github.com/NishuMehta/Loan-Default-Prediction)
+ [GitHub Repository](https://github.com/NishuMehta/Loan-Default-Prediction)
