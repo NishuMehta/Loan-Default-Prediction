@@ -7,7 +7,7 @@ This project predicts whether a loan applicant is likely to **default** using ma
 [🔗 Click here to try the app](https://loan-default-prediction-nishu.streamlit.app/)  
 
 ![](/images/Demo_1.png)
-![](/images/Demo_2.pngs)
+![](/images/Demo_2.png)
 
 ---
 ## 📊 Features
